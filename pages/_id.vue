@@ -10,7 +10,6 @@
       Users
     </nuxt-link>
   </section>
-  <google-map name="example"></google-map>
 </template>
 <script>
 import axios from '~/plugins/axios'
