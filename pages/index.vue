@@ -1,8 +1,7 @@
 <template>
   <section class="container">
     <img src="~assets/img/NuxtMicro.png" alt="Nuxt.js Logo" class="logo" />
-    <h1 class="title">
-      USERS
+    <h1 class="title"> Welcome
     </h1>
     <ul class="users">
       <li v-for="(user, index) in users" class="user">

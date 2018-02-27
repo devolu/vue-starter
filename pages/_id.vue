@@ -2,7 +2,6 @@
   <section class="container">
     <img src="~assets/img/NuxtMicro.png" alt="Nuxt.js Logo" class="logo" />
     <h1 class="title">
-      User
     </h1>
     <h2 class="info">
       {{ user.name }}
@@ -11,6 +10,7 @@
       Users
     </nuxt-link>
   </section>
+  <google-map name="example"></google-map>
 </template>
 <script>
 import axios from '~/plugins/axios'
